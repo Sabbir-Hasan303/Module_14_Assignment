@@ -52,8 +52,8 @@ class Newcontroller extends Controller
         return true;
     }
 
-    
-    // Question 6
+
+    // Question_6
     function Tokencookie(Request $request){
         $rememberToken = $request->cookie('remember_token',null);
         return $rememberToken;
